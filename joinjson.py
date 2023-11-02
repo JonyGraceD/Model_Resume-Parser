@@ -2,7 +2,7 @@ import glob
 import json
 from pymongo import MongoClient
 # 615--> Train& 152--> Testing
-flist = glob.glob("D:\D_J_G\PYTHON\resumeparser2\Files\*.json")
+flist = glob.glob("D:\D_J_G\PYTHON\resumeparser2\resumes\*.json")
 
 print(f"Total {len(flist)} files found ")
 
